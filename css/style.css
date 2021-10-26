@@ -1,0 +1,38 @@
+*{
+    box-sizing:border-box;
+}
+.row:after{
+    content:"";
+    display:table;
+    clear:both;
+}
+.columns2{
+    float:left;
+    width:50%;
+    padding:10px;
+    height:300px;
+}
+.columns3{
+    float:left;
+    width:33.33%;
+    padding:10px;
+    height:300px;
+}
+.columns4{
+    float:left;
+    width:25%;
+    padding:10px;
+    height:300px;
+}
+.col1{
+    background-color:#aaa;
+}
+.col2{
+    background-color:#bbb;
+}
+.col3{
+    background-color:#ccc;
+}
+.col4{
+    background-color:#ddd;
+}
